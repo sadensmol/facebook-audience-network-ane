@@ -2,7 +2,13 @@
 
     <packagedDependencies>
         <packagedDependency>AudienceNetwork.jar</packagedDependency>
-        <packagedDependency>android-support-v4.jar</packagedDependency>
-    </packagedDependencies>
+       </packagedDependencies>
     
+
+    <packagedResources>
+        <packagedResource>
+            <packageName>com.heyzap.sdk.extensions.facebook.audiencenetwork</packageName>
+            <folderName>fan-res</folderName>
+        </packagedResource>
+    </packagedResources>
 </platform>

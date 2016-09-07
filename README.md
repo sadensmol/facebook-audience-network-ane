@@ -7,8 +7,8 @@ The latest release can be found in [Releases](https://github.com/Heyzap/facebook
 Pull requests and issues are welcome.
 
 #### Facebook Audience Network Versions
-- iOS: 4.3.0
-- Android: 4.3.0
+- iOS: 4.15.0
+- Android: 4.15.0
 
 #### Adding to your project
 
@@ -40,6 +40,10 @@ Pull requests and issues are welcome.
 **For Android**:
 - Replace `AudienceNetwork.jar` in `android/libs` with a newer version.
 - Update `android/platform.xml` with any new android libraries that the newer version might be dependent on. Android libraries can be added under the _packagedDependencies_ tag. The actual `.jar` files can be added to the `andorid/libs` directory.
+
+New versions of Facebook Audience Network SDK contain .AAR archive. Just unpack it as zip file and add classes.jar file to `android/libs` directory. Rename it to `AudienceNetwork.jar`.
+
+Copy all resources to `src-resources` folder. They will be automatically added to the build.
 
 After making the necessary modifications, build the new ANE by following the [building](#building) instructions below.
 
